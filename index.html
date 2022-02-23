@@ -1,0 +1,244 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prestigevert - Ventes de plantes </title>
+    <link rel="stylesheet" href="css/styles.css">
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
+    
+</head>
+<body>
+    <section class="top-page">
+        <header class="header">
+            <img src="images/logo1.jpg" alt="Logo du site">
+            
+                <nav class="nav" >
+                    <li><a href="#">Accueil</a></li>
+                    <li><a href="#bests-items">Nos meilleures ventes </a></li>
+                    <li><a href="#all-plants">Nos Plantes</a></li>
+                    <li><a href="#livraison">Livraison</a></li>
+                     <!-- <li><a href="#contact">Nos services</a></li> -->
+                </nav>
+        
+        </header>
+        <div class="landing-page">
+            <h1 class="big-title">Prestige vert </h1>
+           
+            
+            <a class="scroll-down" href="#services">Scroll <i class="fas fa-angle-down"></i></a>
+        </div>
+        
+    </section>
+    
+    <section class="services" id="services">
+        <div class="service-item">
+            <i class="fas fa-store delivery-icon"></i>
+            <p class="service-details">Notre magasin à votre service</p>
+        </div>
+        <div class="service-item">
+            <i class="fas fa-people-carry delivery-icon"></i>
+            <p class="service-details">Retrait en magasin sans contact</p>
+        </div>
+        <div class="service-item">
+            <i class="fas fa-truck delivery-icon"></i>
+            <p class="service-details">Livraison à domicile sans contact</p>
+        </div>
+    </section> 
+
+    
+
+    <section class="bests-items" id="bests-items">
+        <h2 class="section-title">
+            Nos meilleures ventes
+        </h2>
+        <div class="best-plants">
+            <a class="plant-box plant1 no-grid">
+                <div class="plant-details">
+                    <p class="plant-name">Plante</p>
+                    <p class="plant-price">24,990TND</p>
+                </div>
+            </a>
+            <a class="plant-box plant2 no-grid">
+                <div class="plant-details">
+                    <p class="plant-name">Plante</p>
+                    <p class="plant-price">14,950TND</p>
+                </div>
+            </a>
+            <a class="plant-box plant3 no-grid">
+                <div class="plant-details">
+                    <p class="plant-name">Plante</p>
+                    <p class="plant-price">24,990TND</p>
+                </div>
+            </a>
+            <a class="plant-box plant4 no-grid">
+                <div class="plant-details">
+                    <p class="plant-name">Plante</p>
+                    <p class="plant-price">29,990TND</p>
+                </div>
+            </a>
+        </div>
+    </section> 
+
+    <section class="all-plants" id="all-plants">
+        <h2 class="section-title">
+            Nos plantes
+        </h2>
+        <div class="plant-grid">
+            <a class="plant-grid1 plant-box">
+                <div class="plant-details">
+                    <p class="plant-name">Carissa (الكاريس كبير الثمار)</p>
+                    <p class="plant-price">30.000 TND</p>
+                </div>
+            </a>
+            <a class="plant-grid2 plant-box">
+                <div class="plant-details">
+                    <p class="plant-name">Echevria Variées
+                        </p>
+                    <p class="plant-price">
+                        16,000 TND</p>
+                </div>
+            </a>
+            <a class="plant-grid3 plant-box">
+                <div class="plant-details">
+                    <p class="plant-name">Cactées</p>
+                    <p class="plant-price">7.000 TND</p>
+                </div>
+            </a>
+            <a class="plant-grid4 plant-box">
+                <div class="plant-details">
+                    <p class="plant-name">Portulacaria (رجلة الصبار)</p>
+                    <p class="plant-price">7.000 TND</p>
+                </div>
+            </a>
+            <a class="plant-grid5 plant-box">
+                <div class="plant-details">
+                    <p class="plant-name">Westringia (الإكليل الأسترالي)</p>
+                    <p class="plant-price">35.000 TND</p>
+                </div>
+            </a>
+            <a class="plant-grid6 plant-box">
+                <div class="plant-details">
+                    <p class="plant-name">lucky bambou</p>
+                    <p class="plant-price">26.000 TND </p>
+                </div>
+            </a>
+        </div>
+    </section> 
+
+    <section class="livraison" id="livraison">
+        <h2 class="section-title">
+            Formulaire de livraison
+        </h2>
+        <form method=post action=mailto:zainebkoubaa3@gmail.com> 
+            
+            <table border=1 cellpadding=5 cellspacing=0 width=90% bgcolor=white>
+                <TR>
+                    <th width=20%>Civilité</TH>
+                        <td id="one" colspan=2>
+                            <input class="radio" type=radio name=civ value=madame>Mme 
+                            <input class="radio" type=radio name=civ value=mlle>Mlle
+                            <input class="radio" type=radio name=civ value=mr>Mr
+                            <span id="radio" style="color: red"></span>
+                        </td>
+                </TR>
+                <tr>
+                    <th width=20%>Nom</th>
+                    <td colspan=2>
+                        <input id="name" type=text name=nom size=30>
+                        <span style="color:red"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th width=20%>Prènom</th>
+                    <td colspan=2>
+                        <input id="prenom"  type=text name=prènom size=30>
+                        <span  style="color:red"></span>
+
+                    </td>
+                </tr>
+                <tr>
+                    <th width=20%>L'article</th>
+                    <td colspan=2>
+                        <input id="article" type=text name=article size=30>
+                        <span style="color:red"></span>
+                    </td>
+                </tr>
+                <tr>
+                    <th>Adresse</th>
+                    <th width=30%>Numèro<br>
+                        rue<br>
+                        code postal<br>
+                        ville </th>
+                    <td>
+                        <input id="num" type=int name=num>  <span style="color:red"></span><br>
+                      
+                        <input id="rue" type=text name=rue> <span id="ahmed" style="color:red"></span><br>
+                       
+                        <input id="code" type=int name=code postale maxlength=5><span id="zeineb" style="color:red"></span><br>
+                        
+                        <select name=ville><option>Sfax 
+                            <option> Tunis 
+                                <option> Sousse
+                                </td>
+                                    
+                </tr>
+                <tr>
+                </table>
+        </form>
+            </section>
+                    <td colspan=3><center> 
+                        <input onclick="check()" type=submit value=envoyer>
+                        <input onclick="clear_all()" type=reset value=effacer> </center> 
+                    </td>
+                    </tr>
+                </div>
+  
+                    
+
+    
+    
+   <footer>
+    <section class="contact" id="contact">
+
+        <h2 class="section-title">
+            Nos services
+        </h2>
+        <div class="services">
+            
+            <div class="service">
+                <h3>A propos </h3>
+                <p>Prestige vert, notre entreprise familiale ...<br>
+                    Si d’autres sont des financiers de la plante, nous, nous sommes des passionnés de la nature.<br>
+                    Nous fournissons un service d’exception garantissant une satisfaction de 100% chez tous nos clients.<br>
+                    Venez nous voir, ça vaut le détour. <br>
+                    Vente des plantes -
+                    Aménagement & Entretien des Espaces verts</p>
+
+            </div>
+
+            <div class="service">
+                <h3>Contact</h3>
+               Prestige vert <br>                                       
+        3061 SFAX, route mahdia klm 10 <br>
+        E-mail : prestigevert@gmail.fr <br>
+        Nous appeler : +216 51 542 539 <br>
+        <a href="#" class="btn1"> <a href="https://www.facebook.com/Jardinerie.Paysagist" target=-blank>FACEBOOK </a> <br>
+            </div>
+
+            <div class="service">
+                <h3>Heures d'ouverture : </h3>
+                 
+        Lundi : Fermé <br>
+        Mar - Ven : 9:30- 17:00 <br>
+        Samedi - Dimanche : 9:30 - 15:00 <br></p>
+            </div>
+
+        </div>
+
+        <p id="contact">Contact : +216 51 542 539 | &copy; 3061, Prestige vert.</p>
+    </section>
+    </footer>
+<script src="./js/index.js"></script>
+</body>
+</html>
